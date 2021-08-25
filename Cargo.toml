@@ -1,0 +1,23 @@
+[package]
+name = "karkinos"
+description = "netsukuku in rust"
+authors = ["d0p1 <contact@d0p1.eu>"]
+license = "GPL-3.0-or-later"
+version = "0.1.0"
+edition = "2018"
+keywords = ["p2p", "netsukuku", "mesh"]
+build = "build.rs"
+
+[[bin]]
+name = "karkinosd"
+path = "src/karkinosd/main.rs"
+
+[[bin]]
+name = "karkinos-cli"
+path = "src/karkinos-cli/main.rs"
+
+[dependencies]
+clap = "2.33.3"
+
+[build-dependencies]
+clap = "2.33.3"
