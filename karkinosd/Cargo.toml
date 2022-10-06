@@ -1,0 +1,13 @@
+[package]
+name = "karkinosd"
+description = "netsukuku daemon in rust"
+authors = ["d0p1 <contact@d0p1.eu>"]
+license = "GPL-3.0-or-later"
+version = "0.1.0"
+edition = "2021"
+keywords = ["p2p", "netsukuku", "mesh"]
+
+[dependencies]
+clap = { version = "4.0.10", features = ["derive"] }
+tracing = "0.1.36"
+tracing-subscriber = "0.3.15"
