@@ -1,6 +1,7 @@
 [workspace]
 
 members = [
-    "karkinosd",
-    "karkinos-cli"
+    "crates/karkinosd",
+    "crates/karkinos-cli",
+    "crates/qspn"
 ]

@@ -9,3 +9,4 @@ keywords = ["p2p", "netsukuku", "mesh"]
 
 [dependencies]
 clap = { version = "4.0.10", features = ["derive"] }
+jsonrpsee-http-client = "0.15.1"
